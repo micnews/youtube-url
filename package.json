@@ -1,0 +1,21 @@
+{
+  "name": "youtube-url",
+  "version": "0.0.0",
+  "description": "YouTube url tools",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": "micnews/youtube-url",
+  "author": "Mic Network, Inc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micnews/youtube-url/issues"
+  },
+  "homepage": "https://github.com/micnews/youtube-url",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "tape": "^3.0.3"
+  }
+}
