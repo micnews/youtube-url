@@ -1,6 +1,8 @@
 ## SYNOPSIS
 YouTube url tools
 
+[![Build Status](https://travis-ci.org/micnews/youtube-url.svg)](https://travis-ci.org/micnews/youtube-url)
+
 ## USAGE
 
 ```js
