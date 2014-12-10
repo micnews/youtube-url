@@ -1,6 +1,6 @@
 {
   "name": "youtube-url",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "YouTube url tools",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,7 @@
     "url": "https://github.com/micnews/youtube-url/issues"
   },
   "homepage": "https://github.com/micnews/youtube-url",
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "tape": "^3.0.3"
   }
