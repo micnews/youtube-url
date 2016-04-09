@@ -15,15 +15,30 @@ var validUrls = [
   {url: 'http://youtu.be/0zM3nApSvMg', id: '0zM3nApSvMg'},
   {url: 'http://youtu.be/vzM3nApSvMg', id: 'vzM3nApSvMg'},
   {url: 'http://www.youtube.com/watch?v=0zM3nApSvMg#t=0m10s', id: '0zM3nApSvMg'},
-  {url: 'youtube.com/watch?v=0zM3nApSvMg#t=0m10s', id: '0zM3nApSvMg'}
-]
+  {url: 'youtube.com/watch?v=0zM3nApSvMg#t=0m10s', id: '0zM3nApSvMg'},
+
+  {url: '//www.youtube.com/embed/0zM3nApSvMg?rel=0', id: '0zM3nApSvMg'},
+  {url: '//www.youtube.com/v/0zM3nApSvMg?fs=1&amp;hl=en_US&amp;rel=0', id: '0zM3nApSvMg'},
+  {url: '//www.youtube.com/watch?v=0zM3nApSvMg#t=0m10s', id: '0zM3nApSvMg'},
+  {url: '//www.youtube.com/watch?v=0zM3nApSvMg&feature=feedrec_grec_index', id: '0zM3nApSvMg'},
+  {url: '//www.youtube.com/watch?v=0zM3nApSvMg', id: '0zM3nApSvMg'},
+  {url: '//www.youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
+  {url: '//youtu.be/0zM3nApSvMg', id: '0zM3nApSvMg'},
+  {url: '//youtu.be/vzM3nApSvMg', id: 'vzM3nApSvMg'},
+  {url: '//youtube.com/watch?v=0zM3nApSvMg#t=0m10s', id: '0zM3nApSvMg'},
+  {url: '//youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
+];
 
 var invalidUrls = [
   'https://www.other-url.com/watch?v=YoB8t0B4jx4',
   'https://www.youtube.com/',
   'https://www.youtube.com/feed/history',
   'google.com/embed/0zM3nApSvMg',
-]
+
+  '//www.other-url.com/watch?v=YoB8t0B4jx4',
+  '//www.youtube.com/',
+  '//www.youtube.com/feed/history',
+];
 
 test('youtube url valid test', function (t) {
   validUrls.forEach(function (url) {
