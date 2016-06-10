@@ -1,4 +1,4 @@
-var urlRegex = /^(?:(?:https?:)?\/\/)?(?:www\.)?(?:youtu(?:be)?\.com\/(?:v\/|embed\/|watch\?.*?v=)|youtu\.be\/)((?:\w|-){11})(?:\S+)?$/;
+var urlRegex = /^(?:(?:https?:)?\/\/)?(?:www\.)?(?:youtu(?:be)?\.com\/(?:v\/|embed\/|watch(?:\/|\?v=))|youtu\.be\/)((?:\w|-){11})(?:\S+)?$/;
 
 module.exports = {
   valid: function(url) {
@@ -7,5 +7,6 @@ module.exports = {
   extractId: function(url) {
     var match = urlRegex.exec(url);
     return match ? match[1] : false;
-  }
+  },
+  regex: urlRegex
 };

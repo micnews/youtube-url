@@ -4,6 +4,8 @@ var youtubeUrl = require('./index');
 var validUrls = [
   {url: 'https://www.youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
   {url: 'https://youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
+  {url: 'https://www.youtube.com/watch/YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
+  {url: 'http://www.youtube.com/watch/YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
   {url: 'http://www.youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
   {url: 'http://youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
   {url: 'www.youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
