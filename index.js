@@ -7,5 +7,6 @@ module.exports = {
   extractId: function(url) {
     var match = urlRegex.exec(url);
     return match ? match[1] : false;
-  }
+  },
+  regex: urlRegex
 };
