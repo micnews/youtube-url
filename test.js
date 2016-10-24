@@ -29,6 +29,11 @@ var validUrls = [
   {url: '//youtu.be/vzM3nApSvMg', id: 'vzM3nApSvMg'},
   {url: '//youtube.com/watch?v=0zM3nApSvMg#t=0m10s', id: '0zM3nApSvMg'},
   {url: '//youtube.com/watch?v=YoB8t0B4jx4', id: 'YoB8t0B4jx4'},
+
+  {url: 'https://m.youtube.com/watch?v=j4ErjX8p20s', id: 'j4ErjX8p20s'},
+  {url: 'http://m.youtube.com/watch?v=j4ErjX8p20s', id: 'j4ErjX8p20s'},
+  {url: '//m.youtube.com/watch?v=j4ErjX8p20s', id: 'j4ErjX8p20s'},
+  {url: 'm.youtube.com/watch?v=j4ErjX8p20s', id: 'j4ErjX8p20s'}
 ];
 
 var invalidUrls = [
